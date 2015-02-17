@@ -1,0 +1,252 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ARRAY_SIZE	menus/menu_attrib.c	3;"	d	file:
+ARRAY_SIZE	menus/menu_item_data.c	4;"	d	file:
+ARRAY_SIZE	menus/menu_multi_column.c	4;"	d	file:
+ARRAY_SIZE	menus/menu_scroll.c	4;"	d	file:
+ARRAY_SIZE	menus/menu_simple.c	4;"	d	file:
+ARRAY_SIZE	menus/menu_toggle.c	4;"	d	file:
+ARRAY_SIZE	menus/menu_userptr.c	4;"	d	file:
+ARRAY_SIZE	menus/menu_win.c	3;"	d	file:
+BLANK	JustForFun/shuffle.c	8;"	d	file:
+CC	JustForFun/Makefile	/^CC=gcc$/;"	m
+CC	basics/Makefile	/^CC=gcc$/;"	m
+CC	forms/Makefile	/^CC=gcc$/;"	m
+CC	menus/Makefile	/^CC=gcc$/;"	m
+CC	panels/Makefile	/^CC=gcc$/;"	m
+CELL_CHAR	JustForFun/life.c	8;"	d	file:
+CTRLD	menus/menu_attrib.c	4;"	d	file:
+CTRLD	menus/menu_item_data.c	5;"	d	file:
+CTRLD	menus/menu_multi_column.c	5;"	d	file:
+CTRLD	menus/menu_scroll.c	5;"	d	file:
+CTRLD	menus/menu_simple.c	5;"	d	file:
+CTRLD	menus/menu_toggle.c	5;"	d	file:
+CTRLD	menus/menu_userptr.c	5;"	d	file:
+CTRLD	menus/menu_win.c	4;"	d	file:
+DISC_CHAR	JustForFun/hanoi.c	5;"	d	file:
+DOWN	JustForFun/shuffle.c	/^enum { LEFT, RIGHT, UP, DOWN };$/;"	e	enum:__anon1	file:
+ENDX	JustForFun/life.c	/^int ENDX = 79;$/;"	v
+ENDY	JustForFun/life.c	/^int ENDY = 24;$/;"	v
+EXES	JustForFun/Makefile	/^EXES = \\$/;"	m
+EXES	basics/Makefile	/^EXES = \\$/;"	m
+EXES	forms/Makefile	/^EXES = \\$/;"	m
+EXES	menus/Makefile	/^EXES = \\$/;"	m
+EXES	panels/Makefile	/^EXES = \\$/;"	m
+EXE_DIR	JustForFun/Makefile	/^EXE_DIR=..\/demo\/exe$/;"	m
+EXE_DIR	basics/Makefile	/^EXE_DIR=..\/demo\/exe$/;"	m
+EXE_DIR	forms/Makefile	/^EXE_DIR=..\/demo\/exe$/;"	m
+EXE_DIR	menus/Makefile	/^EXE_DIR=..\/demo\/exe$/;"	m
+EXE_DIR	panels/Makefile	/^EXE_DIR=..\/demo\/exe$/;"	m
+HEIGHT	JustForFun/magic.c	7;"	d	file:
+HEIGHT	JustForFun/shuffle.c	6;"	d	file:
+HEIGHT	basics/mouse_menu.c	4;"	d	file:
+HEIGHT	basics/simple_key.c	5;"	d	file:
+HSIZE	JustForFun/tt.c	6;"	d	file:
+KEY_F1	JustForFun/tt.c	14;"	d	file:
+LEFT	JustForFun/shuffle.c	/^enum { LEFT, RIGHT, UP, DOWN };$/;"	e	enum:__anon1	file:
+LENGTH	JustForFun/tt.c	7;"	d	file:
+LIBS	JustForFun/Makefile	/^LIBS=-lncurses$/;"	m
+LIBS	basics/Makefile	/^LIBS=-lncurses$/;"	m
+LIBS	forms/Makefile	/^LIBS=-lform -lncurses$/;"	m
+LIBS	menus/Makefile	/^LIBS=-lmenu -lncurses$/;"	m
+LIBS	panels/Makefile	/^LIBS=-lpanel -lncurses$/;"	m
+NCOLS	panels/panel_browse.c	4;"	d	file:
+NCOLS	panels/panel_hide.c	8;"	d	file:
+NCOLS	panels/panel_resize.c	11;"	d	file:
+NLINES	panels/panel_browse.c	3;"	d	file:
+NLINES	panels/panel_hide.c	7;"	d	file:
+NLINES	panels/panel_resize.c	10;"	d	file:
+N_FIELDS	forms/form_options.c	7;"	d	file:
+PANEL_DATA	panels/panel_hide.c	/^}PANEL_DATA;$/;"	t	typeref:struct:_PANEL_DATA	file:
+PANEL_DATA	panels/panel_resize.c	/^}PANEL_DATA;$/;"	t	typeref:struct:_PANEL_DATA	file:
+PEG_CHAR	JustForFun/hanoi.c	6;"	d	file:
+POSX	JustForFun/hanoi.c	3;"	d	file:
+POSY	JustForFun/hanoi.c	4;"	d	file:
+QUEEN_CHAR	JustForFun/queens.c	4;"	d	file:
+RIGHT	JustForFun/shuffle.c	/^enum { LEFT, RIGHT, UP, DOWN };$/;"	e	enum:__anon1	file:
+SRC_DIR	JustForFun/Makefile	/^SRC_DIR=.$/;"	m
+SRC_DIR	basics/Makefile	/^SRC_DIR=.$/;"	m
+SRC_DIR	forms/Makefile	/^SRC_DIR=.$/;"	m
+SRC_DIR	menus/Makefile	/^SRC_DIR=.$/;"	m
+SRC_DIR	panels/Makefile	/^SRC_DIR=.$/;"	m
+STARTX	JustForFun/life.c	/^int STARTX = 0;$/;"	v
+STARTX	JustForFun/magic.c	4;"	d	file:
+STARTX	JustForFun/shuffle.c	3;"	d	file:
+STARTX	JustForFun/tt.c	9;"	d	file:
+STARTX	forms/form_options.c	3;"	d	file:
+STARTY	JustForFun/life.c	/^int STARTY = 0;$/;"	v
+STARTY	JustForFun/magic.c	5;"	d	file:
+STARTY	JustForFun/shuffle.c	4;"	d	file:
+STARTY	JustForFun/tt.c	10;"	d	file:
+STARTY	forms/form_options.c	4;"	d	file:
+STATUSX	JustForFun/tt.c	11;"	d	file:
+STATUSY	JustForFun/tt.c	12;"	d	file:
+TIME_OUT	JustForFun/hanoi.c	7;"	d	file:
+TIME_OUT	JustForFun/life.c	9;"	d	file:
+TRACE_VALUE	JustForFun/magic.c	9;"	d	file:
+UP	JustForFun/shuffle.c	/^enum { LEFT, RIGHT, UP, DOWN };$/;"	e	enum:__anon1	file:
+WIDTH	JustForFun/magic.c	6;"	d	file:
+WIDTH	JustForFun/shuffle.c	5;"	d	file:
+WIDTH	JustForFun/tt.c	8;"	d	file:
+WIDTH	basics/mouse_menu.c	3;"	d	file:
+WIDTH	basics/simple_key.c	4;"	d	file:
+WIDTH	forms/form_options.c	5;"	d	file:
+WIN	basics/other_border.c	/^}WIN;$/;"	t	typeref:struct:_WIN_struct	file:
+WIN_BORDER	basics/other_border.c	/^}WIN_BORDER;$/;"	t	typeref:struct:_win_border_struct	file:
+_PANEL_DATA	panels/panel_hide.c	/^typedef struct _PANEL_DATA {$/;"	s	file:
+_PANEL_DATA	panels/panel_resize.c	/^typedef struct _PANEL_DATA {$/;"	s	file:
+_WIN_struct	basics/other_border.c	/^typedef struct _WIN_struct {$/;"	s	file:
+_peg_struct	JustForFun/hanoi.c	/^typedef struct _peg_struct {$/;"	s	file:
+_state	JustForFun/life.c	/^typedef struct _state {$/;"	s	file:
+_tile	JustForFun/shuffle.c	/^typedef struct _tile {$/;"	s	file:
+_win_border_struct	basics/other_border.c	/^typedef struct _win_border_struct {$/;"	s	file:
+bl	basics/other_border.c	/^	 	tl, tr, bl, br;$/;"	m	struct:_win_border_struct	file:
+board	JustForFun/magic.c	/^void board(WINDOW *win, int starty, int startx, int lines, int cols, $/;"	f
+board	JustForFun/queens.c	/^void board(WINDOW *win, int starty, int startx, int lines, int cols, $/;"	f
+board	JustForFun/shuffle.c	/^void board(WINDOW *win, int starty, int startx, int lines, int cols, $/;"	f
+border	basics/other_border.c	/^	WIN_BORDER border;$/;"	m	struct:_WIN_struct	file:
+bottomx	JustForFun/hanoi.c	/^	int bottomx, bottomy;	\/* bottom x, bottom y co-ord  	*\/$/;"	m	struct:_peg_struct	file:
+bottomy	JustForFun/hanoi.c	/^	int bottomx, bottomy;	\/* bottom x, bottom y co-ord  	*\/$/;"	m	struct:_peg_struct	file:
+br	basics/other_border.c	/^	 	tl, tr, bl, br;$/;"	m	struct:_win_border_struct	file:
+bs	basics/other_border.c	/^	chtype 	ls, rs, ts, bs, $/;"	m	struct:_win_border_struct	file:
+calc	JustForFun/life.c	/^void calc(state **area, int i, int j)$/;"	f
+check_usr_response	JustForFun/hanoi.c	/^void check_usr_response(peg *p_my_pegs, int n_discs)$/;"	f
+check_win	JustForFun/shuffle.c	/^int check_win(int **s_board, int n, tile *blank)$/;"	f
+choices	basics/mouse_menu.c	/^char *choices[] = { 	"Choice 1",$/;"	v
+choices	basics/simple_key.c	/^char *choices[] = { $/;"	v
+choices	menus/menu_attrib.c	/^char *choices[] = {$/;"	v
+choices	menus/menu_item_data.c	/^char *choices[] = {$/;"	v
+choices	menus/menu_multi_column.c	/^char *choices[] = {$/;"	v
+choices	menus/menu_scroll.c	/^char *choices[] = {$/;"	v
+choices	menus/menu_simple.c	/^char *choices[] = {$/;"	v
+choices	menus/menu_toggle.c	/^char *choices[] = {$/;"	v
+choices	menus/menu_userptr.c	/^char *choices[] = {$/;"	v
+choices	menus/menu_win.c	/^char *choices[] = {$/;"	v
+create_box	basics/other_border.c	/^void create_box(WIN *p_win, bool flag)$/;"	f
+create_box	perl/08.pl	/^sub create_box {$/;"	s
+create_newwin	basics/win_border.c	/^WINDOW *create_newwin(int height, int width, int starty, int startx)$/;"	f
+create_newwin	perl/07.pl	/^sub create_newwin {$/;"	s
+create_test_string	JustForFun/tt.c	/^void create_test_string(char *test_array, int choice)$/;"	f
+destroy_win	basics/win_border.c	/^void destroy_win(WINDOW *local_win)$/;"	f
+destroy_win	perl/07.pl	/^sub destroy_win {$/;"	s
+display	JustForFun/life.c	/^void display(WINDOW *win, state **area, int startx, int starty, int endx, int endy)$/;"	f
+free_pegs	JustForFun/hanoi.c	/^void free_pegs(peg *p_my_pegs, int n_discs)$/;"	f
+func	menus/menu_userptr.c	/^void func(char *name)$/;"	f
+groups	JustForFun/tt.c	/^char *groups[] = {  "`123456" ,$/;"	v
+h	panels/panel_resize.c	/^	int x, y, w, h;$/;"	m	struct:_PANEL_DATA	file:
+height	basics/other_border.c	/^	int height, width;$/;"	m	struct:_WIN_struct	file:
+hide	panels/panel_hide.c	/^	int hide;	\/* TRUE if panel is hidden *\/$/;"	m	struct:_PANEL_DATA	file:
+init_board	JustForFun/shuffle.c	/^void init_board(int **s_board, int n, tile *blank)$/;"	f
+init_pegs	JustForFun/hanoi.c	/^void init_pegs(peg *p_my_pegs, int n_discs)$/;"	f
+init_win_params	basics/other_border.c	/^void init_win_params(WIN *p_win)$/;"	f
+init_win_params	perl/08.pl	/^sub init_win_params {$/;"	s
+init_wins	panels/panel_browse.c	/^void init_wins(WINDOW **wins, int n)$/;"	f
+init_wins	panels/panel_hide.c	/^void init_wins(WINDOW **wins, int n)$/;"	f
+init_wins	panels/panel_resize.c	/^void init_wins(WINDOW **wins, int n)$/;"	f
+label	panels/panel_resize.c	/^	char label[80]; $/;"	m	struct:_PANEL_DATA	file:
+label_color	panels/panel_resize.c	/^	int label_color;$/;"	m	struct:_PANEL_DATA	file:
+ls	basics/other_border.c	/^	chtype 	ls, rs, ts, bs, $/;"	m	struct:_win_border_struct	file:
+magic	JustForFun/magic.c	/^void magic(int **a, int n)$/;"	f
+magic_board	JustForFun/magic.c	/^void magic_board(int **a,int n)$/;"	f
+main	JustForFun/hanoi.c	/^int main(int argc, char *argv[])$/;"	f
+main	JustForFun/life.c	/^int main()$/;"	f
+main	JustForFun/magic.c	/^int main(int argc, char *argv[])$/;"	f
+main	JustForFun/queens.c	/^int main(int argc, char *argv[])$/;"	f
+main	JustForFun/shuffle.c	/^int main(int argc, char *argv[])$/;"	f
+main	JustForFun/tt.c	/^int main()$/;"	f
+main	basics/acs_vars.c	/^int main()$/;"	f
+main	basics/hello_world.c	/^int main()$/;"	f
+main	basics/init_func_example.c	/^int main()$/;"	f
+main	basics/key_code.c	/^int main()$/;"	f
+main	basics/mouse_menu.c	/^int main()$/;"	f
+main	basics/other_border.c	/^int main(int argc, char *argv[])$/;"	f
+main	basics/printw_example.c	/^int main()$/;"	f
+main	basics/scanw_example.c	/^int main()$/;"	f
+main	basics/simple_attr.c	/^int main(int argc, char *argv[])$/;"	f
+main	basics/simple_color.c	/^int main(int argc, char *argv[])$/;"	f
+main	basics/simple_key.c	/^int main()$/;"	f
+main	basics/temp_leave.c	/^int main()$/;"	f
+main	basics/win_border.c	/^int main(int argc, char *argv[])$/;"	f
+main	basics/with_chgat.c	/^int main(int argc, char *argv[])$/;"	f
+main	forms/form_attrib.c	/^int main()$/;"	f
+main	forms/form_options.c	/^int main()$/;"	f
+main	forms/form_simple.c	/^int main()$/;"	f
+main	forms/form_win.c	/^int main()$/;"	f
+main	menus/menu_attrib.c	/^int main()$/;"	f
+main	menus/menu_item_data.c	/^int main()$/;"	f
+main	menus/menu_multi_column.c	/^int main()$/;"	f
+main	menus/menu_scroll.c	/^int main()$/;"	f
+main	menus/menu_simple.c	/^int main()$/;"	f
+main	menus/menu_toggle.c	/^int main()$/;"	f
+main	menus/menu_userptr.c	/^int main()$/;"	f
+main	menus/menu_win.c	/^int main()$/;"	f
+main	panels/panel_browse.c	/^int main()$/;"	f
+main	panels/panel_hide.c	/^int main()$/;"	f
+main	panels/panel_resize.c	/^int main()$/;"	f
+main	panels/panel_simple.c	/^int main()$/;"	f
+move_blank	JustForFun/shuffle.c	/^void move_blank(int direction, int **s_board, int n, tile *blank)$/;"	f
+move_disc	JustForFun/hanoi.c	/^void move_disc(peg *p_my_pegs, int n_discs, int src, int dst)$/;"	f
+n_choices	basics/mouse_menu.c	/^int n_choices = sizeof(choices) \/ sizeof(char *);$/;"	v
+n_choices	basics/simple_key.c	/^int n_choices = sizeof(choices) \/ sizeof(char *);$/;"	v
+n_discs	JustForFun/hanoi.c	/^	int n_discs;		\/* Number of discs at present 	*\/$/;"	m	struct:_peg_struct	file:
+n_groups	JustForFun/tt.c	/^int n_groups;$/;"	v
+newstate	JustForFun/life.c	/^	int newstate;$/;"	m	struct:_state	file:
+next	panels/panel_resize.c	/^	PANEL *next;$/;"	m	struct:_PANEL_DATA	file:
+nqueens	JustForFun/queens.c	/^int *nqueens(int num)$/;"	f
+oldstate	JustForFun/life.c	/^	int oldstate;$/;"	m	struct:_state	file:
+peg	JustForFun/hanoi.c	/^}peg;$/;"	t	typeref:struct:_peg_struct	file:
+place	JustForFun/queens.c	/^int place(int current, int *position)$/;"	f
+print	JustForFun/magic.c	/^void print(int **a,int n)$/;"	f
+print	JustForFun/queens.c	/^int print(int *positions, int num_queens)$/;"	f
+print_byebye	JustForFun/tt.c	/^void print_byebye()$/;"	f
+print_in_middle	JustForFun/hanoi.c	/^void print_in_middle(int startx, int starty, int width, char *string, WINDOW *win)$/;"	f
+print_in_middle	JustForFun/tt.c	/^void print_in_middle(int startx, int starty, int width, char *string, WINDOW *win)$/;"	f
+print_in_middle	basics/simple_color.c	/^void print_in_middle(WINDOW *win, int starty, int startx, int width, char *string)$/;"	f
+print_in_middle	forms/form_win.c	/^void print_in_middle(WINDOW *win, int starty, int startx, int width, char *string, chtype color)$/;"	f
+print_in_middle	menus/menu_scroll.c	/^void print_in_middle(WINDOW *win, int starty, int startx, int width, char *string, chtype color)$/;"	f
+print_in_middle	menus/menu_win.c	/^void print_in_middle(WINDOW *win, int starty, int startx, int width, char *string, chtype color)$/;"	f
+print_in_middle	panels/panel_browse.c	/^void print_in_middle(WINDOW *win, int starty, int startx, int width, char *string, chtype color)$/;"	f
+print_in_middle	panels/panel_hide.c	/^void print_in_middle(WINDOW *win, int starty, int startx, int width, char *string, chtype color)$/;"	f
+print_in_middle	panels/panel_resize.c	/^void print_in_middle(WINDOW *win, int starty, int startx, int width, char *string, chtype color)$/;"	f
+print_in_middle	perl/09.pl	/^sub print_in_middle {$/;"	s
+print_menu	JustForFun/tt.c	/^int print_menu()$/;"	f
+print_menu	basics/mouse_menu.c	/^void print_menu(WINDOW *menu_win, int highlight)$/;"	f
+print_menu	basics/simple_key.c	/^void print_menu(WINDOW *menu_win, int highlight)$/;"	f
+print_menu	perl/10.pl	/^sub print_menu {$/;"	s
+print_time	JustForFun/tt.c	/^void print_time(time_t start_t, time_t end_t, int mistakes)$/;"	f
+print_win_params	basics/other_border.c	/^void print_win_params(WIN *p_win)$/;"	f
+print_win_params	perl/08.pl	/^sub print_win_params {$/;"	s
+report_choice	basics/mouse_menu.c	/^void report_choice(int mouse_x, int mouse_y, int *p_choice)$/;"	f
+rs	basics/other_border.c	/^	chtype 	ls, rs, ts, bs, $/;"	m	struct:_win_border_struct	file:
+set_user_ptrs	panels/panel_resize.c	/^void set_user_ptrs(PANEL **panels, int n)$/;"	f
+show_pegs	JustForFun/hanoi.c	/^void show_pegs(WINDOW *win, peg *p_my_pegs, int n_discs)$/;"	f
+shuffle_board	JustForFun/shuffle.c	/^void shuffle_board(int **s_board, int n)$/;"	f
+sizes	JustForFun/hanoi.c	/^	int *sizes;		\/* The disc sizes array		*\/$/;"	m	struct:_peg_struct	file:
+solve_hanoi	JustForFun/hanoi.c	/^void solve_hanoi(peg *p_my_pegs, int n_discs, int src, int aux, int dst)$/;"	f
+startx	basics/mouse_menu.c	/^int startx = 0;$/;"	v
+startx	basics/other_border.c	/^	int startx, starty;$/;"	m	struct:_WIN_struct	file:
+startx	basics/simple_key.c	/^int startx = 0;$/;"	v
+starty	basics/mouse_menu.c	/^int starty = 0;$/;"	v
+starty	basics/other_border.c	/^	int startx, starty;$/;"	m	struct:_WIN_struct	file:
+starty	basics/simple_key.c	/^int starty = 0;$/;"	v
+state	JustForFun/life.c	/^}state;$/;"	t	typeref:struct:_state	file:
+store_n_discs	JustForFun/hanoi.c	/^int store_n_discs;$/;"	v
+tile	JustForFun/shuffle.c	/^}tile;$/;"	t	typeref:struct:_tile	file:
+tl	basics/other_border.c	/^	 	tl, tr, bl, br;$/;"	m	struct:_win_border_struct	file:
+tr	basics/other_border.c	/^	 	tl, tr, bl, br;$/;"	m	struct:_win_border_struct	file:
+ts	basics/other_border.c	/^	chtype 	ls, rs, ts, bs, $/;"	m	struct:_win_border_struct	file:
+update_state	JustForFun/life.c	/^void update_state(state **area, int startx, int starty, int endx, int endy)$/;"	f
+w	panels/panel_resize.c	/^	int x, y, w, h;$/;"	m	struct:_PANEL_DATA	file:
+welcome_string	JustForFun/hanoi.c	/^char *welcome_string = "Enter the number of discs you want to be solved: ";$/;"	v
+width	basics/other_border.c	/^	int height, width;$/;"	m	struct:_WIN_struct	file:
+win_show	panels/panel_browse.c	/^void win_show(WINDOW *win, char *label, int label_color)$/;"	f
+win_show	panels/panel_hide.c	/^void win_show(WINDOW *win, char *label, int label_color)$/;"	f
+win_show	panels/panel_resize.c	/^void win_show(WINDOW *win, char *label, int label_color)$/;"	f
+x	JustForFun/shuffle.c	/^	int x;$/;"	m	struct:_tile	file:
+x	panels/panel_resize.c	/^	int x, y, w, h;$/;"	m	struct:_PANEL_DATA	file:
+y	JustForFun/shuffle.c	/^	int y;$/;"	m	struct:_tile	file:
+y	panels/panel_resize.c	/^	int x, y, w, h;$/;"	m	struct:_PANEL_DATA	file:
