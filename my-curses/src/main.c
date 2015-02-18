@@ -17,12 +17,19 @@
  */
 #include <stdlib.h>
 #include <unistd.h>
+#include <string.h>
 
 #include "ui.h"
 
 int main(int argc, char **argv) {
 	ui_t *ui = create_ui();
-	sleep(5);
+	while (TRUE) {	
+		char *msg = get_message(ui);
+		if (strcmp(msg, "quit") == 0) {
+			break;
+		}
+		display_message(ui, msg);
+	}
 	destroy_ui(ui);
 	return 0;
 }

@@ -24,9 +24,12 @@
 typedef struct {
 	WINDOW *prompt;
 	WINDOW *screen;	
+	int next_line;
 } ui_t;
 
 ui_t *create_ui();
 void destroy_ui(ui_t *ui);
+char *get_message(ui_t *ui);
+void display_message(ui_t *ui, char *msg);
 
 #endif // __UI_H__
