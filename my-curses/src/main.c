@@ -25,7 +25,7 @@ int main(int argc, char **argv) {
 	ui_t *ui = create_ui();
 	while (TRUE) {	
 		char *msg = get_message(ui);
-		if (strcmp(msg, "quit") == 0) {
+		if (strcmp(msg, ":q") == 0) {
 			break;
 		}
 		display_message(ui, msg);

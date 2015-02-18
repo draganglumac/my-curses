@@ -37,8 +37,8 @@ ui_t *create_ui() {
 		exit(1);
 	}
 	start_color();
-	init_pair(1, COLOR_GREEN, COLOR_BLACK);
-
+	init_pair(1, COLOR_CYAN, COLOR_BLACK);
+	
 	ui->screen = newwin(LINES - 6, COLS - 1, 1, 1);
 	box(ui->screen, 0, 0);
 	ui->next_line = 1;
@@ -66,11 +66,11 @@ void update_next_line(ui_t *ui) {
 	ui->next_line++;
 }
 void display_message(ui_t *ui, char *msg) {
-	attron(COLOR_PAIR(1));
+	wattron(ui->screen, COLOR_PAIR(1));
 	mvwprintw(ui->screen, ui->next_line, 1, "%s\n", msg);
+	wattroff(ui->screen, COLOR_PAIR(1));
 	update_next_line(ui);
 	box(ui->screen, 0, 0);
 	wrefresh(ui->screen);
-	attroff(COLOR_PAIR(1));
 	free(msg);
 }
