@@ -82,9 +82,9 @@ char *get_message(ui_t *ui) {
 void update_next_line(ui_t *ui) {
 	int lines, cols;
 	getmaxyx(ui->screen, lines, cols);
-	if (ui->next_line >= lines - 1) {
+	if (ui->next_line >= --lines) {
 		scroll(ui->screen);
-		ui->next_line = lines - 2;
+		ui->next_line--;
 	}
 	else {
 		ui->next_line++;
