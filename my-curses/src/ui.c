@@ -56,6 +56,7 @@ ui_t *create_ui() {
 	display_logo();
 
 	ui->screen = newwin(LINES - 6, COLS - 1, 1, 1);
+	scrollok(ui->screen, TRUE);
 	box(ui->screen, 0, 0);
 	ui->next_line = 1;
 	wrefresh(ui->screen);
@@ -79,7 +80,15 @@ char *get_message(ui_t *ui) {
 	return msg;
 }
 void update_next_line(ui_t *ui) {
-	ui->next_line++;
+	int lines, cols;
+	getmaxyx(ui->screen, lines, cols);
+	if (ui->next_line >= lines - 1) {
+		scroll(ui->screen);
+		ui->next_line = lines - 2;
+	}
+	else {
+		ui->next_line++;
+	}
 }
 void display_message(ui_t *ui, char *msg, int col_flag) {
 	wattron(ui->screen, COLOR_PAIR(col_flag));
