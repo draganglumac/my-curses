@@ -21,24 +21,40 @@
 
 #include "ui.h"
 
-void show_prompt(ui_t *ui) {
-	wmove(ui->prompt, 1, 1);
-	wclear(ui->prompt);
-	mvwprintw(ui->prompt, 1, 1, "$> ");
-	wrefresh(ui->prompt);
-}
-ui_t *create_ui() {
-	ui_t *ui = malloc(sizeof(ui_t));
-	
-	initscr();
+#define COL_LOGO   1
+#define COL_LOCAL  2
+#define COL_REMOTE 3
+
+void init_colours() {
 	if (has_colors() == FALSE) {
 		endwin();
 		printf("Your terminal does not support colours.\n");
 		exit(1);
 	}
 	start_color();
-	init_pair(1, COLOR_CYAN, COLOR_BLACK);
+	init_pair(COL_LOGO, COLOR_WHITE, COLOR_BLUE);
+	init_pair(COL_LOCAL, COLOR_CYAN, COLOR_BLACK);
+	init_pair(COL_REMOTE, COLOR_MAGENTA, COLOR_BLACK);
+}
+void show_prompt(ui_t *ui) {
+	wmove(ui->prompt, 1, 1);
+	wclear(ui->prompt);
+	mvwprintw(ui->prompt, 1, 1, "$> ");
+	wrefresh(ui->prompt);
+}
+void display_logo() {
+	attron(COLOR_PAIR(COL_LOGO) | A_BOLD);
+	printw("%s", " Whisper Chat ");
+	attroff(COLOR_PAIR(COL_LOGO) | A_BOLD);
+	refresh();
+}
+ui_t *create_ui() {
+	ui_t *ui = malloc(sizeof(ui_t));
 	
+	initscr();
+	init_colours();
+	display_logo();
+
 	ui->screen = newwin(LINES - 6, COLS - 1, 1, 1);
 	box(ui->screen, 0, 0);
 	ui->next_line = 1;
@@ -66,9 +82,9 @@ void update_next_line(ui_t *ui) {
 	ui->next_line++;
 }
 void display_message(ui_t *ui, char *msg) {
-	wattron(ui->screen, COLOR_PAIR(1));
+	wattron(ui->screen, COLOR_PAIR(COL_LOCAL));
 	mvwprintw(ui->screen, ui->next_line, 1, "%s\n", msg);
-	wattroff(ui->screen, COLOR_PAIR(1));
+	wattroff(ui->screen, COLOR_PAIR(COL_LOCAL));
 	update_next_line(ui);
 	box(ui->screen, 0, 0);
 	wrefresh(ui->screen);
