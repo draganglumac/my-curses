@@ -1,12 +1,12 @@
 /*
  * =====================================================================================
  *
- *       Filename:  main.c
+ *       Filename:  ui.h
  *
  *    Description:  
  *
  *        Version:  1.0
- *        Created:  17/02/15 12:41:15
+ *        Created:  17/02/15 12:52:40
  *       Revision:  none
  *       Compiler:  gcc
  *
@@ -15,14 +15,18 @@
  *
  * =====================================================================================
  */
-#include <stdlib.h>
-#include <unistd.h>
 
-#include "ui.h"
+#ifndef __UI_H__
+#define __UI_H__
 
-int main(int argc, char **argv) {
-	ui_t *ui = create_ui();
-	sleep(5);
-	destroy_ui(ui);
-	return 0;
-}
+#include <ncurses.h>
+
+typedef struct {
+	WINDOW *prompt;
+	WINDOW *screen;	
+} ui_t;
+
+ui_t *create_ui();
+void destroy_ui(ui_t *ui);
+
+#endif // __UI_H__
