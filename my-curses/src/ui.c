@@ -33,8 +33,8 @@ void init_colours() {
 	}
 	start_color();
 	init_pair(COL_LOGO, COLOR_WHITE, COLOR_BLUE);
-	init_pair(COL_LOCAL, COLOR_CYAN, COLOR_BLACK);
-	init_pair(COL_REMOTE, COLOR_MAGENTA, COLOR_BLACK);
+	init_pair(COL_LOCAL, COLOR_WHITE, COLOR_BLACK);
+	init_pair(COL_REMOTE, COLOR_GREEN, COLOR_BLACK);
 }
 void show_prompt(ui_t *ui) {
 	wmove(ui->prompt, 1, 1);
@@ -81,12 +81,19 @@ char *get_message(ui_t *ui) {
 void update_next_line(ui_t *ui) {
 	ui->next_line++;
 }
-void display_message(ui_t *ui, char *msg) {
-	wattron(ui->screen, COLOR_PAIR(COL_LOCAL));
+void display_message(ui_t *ui, char *msg, int col_flag) {
+	wattron(ui->screen, COLOR_PAIR(col_flag));
 	mvwprintw(ui->screen, ui->next_line, 1, "%s\n", msg);
-	wattroff(ui->screen, COLOR_PAIR(COL_LOCAL));
+	wattroff(ui->screen, COLOR_PAIR(col_flag));
 	update_next_line(ui);
 	box(ui->screen, 0, 0);
 	wrefresh(ui->screen);
+}
+void display_local_message(ui_t *ui, char *msg) {
+	display_message(ui, msg, COL_LOCAL);
+	free(msg);
+}
+void display_remote_message(ui_t *ui, char *msg) {
+	display_message(ui, msg + 2, COL_REMOTE);
 	free(msg);
 }

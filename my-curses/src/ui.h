@@ -30,6 +30,7 @@ typedef struct {
 ui_t *create_ui();
 void destroy_ui(ui_t *ui);
 char *get_message(ui_t *ui);
-void display_message(ui_t *ui, char *msg);
+void display_local_message(ui_t *ui, char *msg);
+void display_remote_message(ui_t *ui, char *msg);
 
 #endif // __UI_H__

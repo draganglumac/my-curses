@@ -28,7 +28,12 @@ int main(int argc, char **argv) {
 		if (strcmp(msg, ":q") == 0) {
 			break;
 		}
-		display_message(ui, msg);
+		else if (strncmp(msg, "r/", 2) == 0) {
+			display_remote_message(ui, msg);
+		}
+		else {
+			display_local_message(ui, msg);
+		}
 	}
 	destroy_ui(ui);
 	return 0;
