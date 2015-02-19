@@ -1,0 +1,3 @@
+[submodule "whisper-curses-poc"]
+	path = whisper-curses-poc
+	url = git@github.com:draganglumac/whisper-curses-poc.git
